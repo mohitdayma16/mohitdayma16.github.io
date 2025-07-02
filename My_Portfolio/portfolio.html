@@ -1,26 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohit Dayma</title>
+  <link rel="icon" type="image/x-icon" href="ball.png" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header-row">
+      <div class="box"><h1>Mohit Dayma</h1></div>
+      <div class="box">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
 
-     <header style="display: flex; background-color:aqua;">
-        <p>
-        <h2 id="name" style="margin: auto;">
-            Mohit Dayma
-        </h2>
-        <p id="nav-items" style="padding-left: 950px;">
-            Home  
-              Services
-              My_Projects
-              Skills
-              Contact me
-        </p>
-        </p>
-    </header>
+    <!-- Home -->
+    <div class="row" id="home">
+      <div style="display: flex; padding-top: 50px;">
+        <div class="box">
+          <h1>Full Stack Developer</h1>
+          <p>
+            I'm a passionate Full Stack Developer and Android enthusiast with experience in building web and mobile applications. I enjoy working on real-world projects that solve meaningful problems and help users.
+          </p>
+          <p>
+            Currently pursuing B.Tech in Computer Science Engineering at LPU. Skilled in Java, Kotlin, React, Vue.js, Node.js, and more.
+          </p>
+          <button>Download Resume</button>
+          <button>Contact Me</button>
+        </div>
+        <div class="box">
+          <img src="https://picsum.photos/id/2/400/400" alt="Profile Image" />
+        </div>
+      </div>
+    </div>
 
+    <!-- Projects -->
+    <div id="projects" class="row" style="background-color: lightcoral;">
+      <h1>Projects</h1>
+      <div style="display: flex">
+        <div class="box">
+          <h3>OneID Pension System</h3>
+          <p>
+            Android app to track pension applications and prevent overlapping benefits. Built using Kotlin, SQLite, and XML layout components.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Anonymous Peer Review System</h3>
+          <p>
+            A Laravel + MySQL web platform for confidential student review and feedback management. Implements role-based access and strong privacy.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Event Management Web App</h3>
+          <p>
+            Vue.js + Bootstrap-based web app to manage college events, registrations, and reports. Clean UI and responsive layout.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services" class="row" style="background-color: lightblue;">
+      <h1>Services</h1>
+      <div style="display: flex">
+        <div class="box">
+          <h3>Web App Development</h3>
+          <p>
+            Building responsive and scalable full stack web applications using Vue.js, React, Node.js, and REST APIs.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Mobile App Development</h3>
+          <p>
+            Android app development with Kotlin, implementing clean architecture, data storage, and navigation components.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Backend Development</h3>
+          <p>
+            Creating RESTful APIs, handling authentication, and working with relational and NoSQL databases like MySQL and MongoDB.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="row">
+      <h1>About</h1>
+      <h3>
+        I’m Mohit Dayma, currently studying Computer Science Engineering at LPU. I specialize in full stack development and Android apps, with a strong interest in DSA and building systems that make an impact.
+      </h3>
+      <h2>Skills</h2>
+      <h3>Java, Kotlin, C++, Python, HTML, CSS, JavaScript, Vue.js, React, Node.js, MySQL, MongoDB, Power BI</h3>
+      <p>⚙️ Logos for technologies coming soon!</p>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="row" style="background-color: lightgoldenrodyellow;">
+      <h1>Contact</h1>
+      <div style="display: flex">
+        <div class="box">
+          <h3>Contact Form</h3>
+          <p><input type="text" placeholder="Enter Name" /></p>
+          <p><input type="email" placeholder="Enter Email" /></p>
+          <p><textarea rows="10" cols="60" placeholder="Enter message"></textarea></p>
+          <button>Send</button>
+        </div>
+        <div class="box">
+          <h3>Mohit Dayma</h3>
+          <p><b>Address:</b> Nanded, Maharashtra, India</p>
+          <p><b>Email Address:</b> mohitdayma@email.com</p>
+          <p><b>Phone Number:</b> +91 98765 43210</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">© 2024 Mohit Dayma. All rights reserved.</div>
+  </div>
 </body>
 </html>

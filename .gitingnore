@@ -1,0 +1,5 @@
+/nodejs/nodeapp/node_modules
+/nodejs/nodeapp/.env
+
+
+.gitignore
